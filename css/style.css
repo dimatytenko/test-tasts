@@ -1,0 +1,35 @@
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.sidebar {
+  background-color: #c32c2c;
+}
+.main-box {
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header__box1 {
+  background-color: #b67219;
+}
+.header__box2 {
+  background-color: #d1c62c;
+}
+.main {
+  background-color: #d513db;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer__box1 {
+  background-color: #300ada;
+}
+.footer__box2 {
+  background-color: #1b5c06;
+}
